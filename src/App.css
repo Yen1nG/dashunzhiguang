@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.header-right {
+  float: right;
+}
+
+.header-active {
+  background-color: orange;
+  size: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+a:hover {
+  background-color: orange;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  /* background-color: #9c5e5e; */
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.shun-wood {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 10px;
+  height: '580px';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
