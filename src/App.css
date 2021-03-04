@@ -69,7 +69,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: center;
   height: 580px;
-  /* background-color: #9c5e5e; */
 }
 
 .each-slide span {
@@ -79,7 +78,7 @@ a:hover {
   text-align: center;
 }
 
-.shun-wood {
+/* .shun-wood {
   margin-top: 10px;
   margin-bottom: 10px;
   padding-right: 10px;
@@ -90,4 +89,19 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+} */
+
+@media only screen and (max-width: 600px) {
+  .each-slide > div {
+    height: 350px !important;
+    width: 100% !important;
+    background-size: cover !important;
+  }
+
+  .shunIntro > p {
+    font-size: 12px !important;
+    padding-bottom: 10px;
+    padding-top: 7% !important;
+
+  }
 }
